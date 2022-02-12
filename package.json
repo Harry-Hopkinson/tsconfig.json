@@ -1,0 +1,21 @@
+{
+	"name": "tsconfig.json",
+	"version": "1.0.0",
+	"description": "Create a tsconfig.json from the command line",
+	"main": "src/index.js",
+	"bin": "src/index.js",
+	"scripts": {
+		"compile": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Harry-Hopkinson/tsconfig.json.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Harry-Hopkinson/tsconfig.json/issues"
+	},
+	"homepage": "https://github.com/Harry-Hopkinson/tsconfig.json#readme"
+}
