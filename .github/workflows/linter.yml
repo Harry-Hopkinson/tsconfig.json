@@ -1,0 +1,21 @@
+name: Linter
+
+on:
+    push:
+        branches:
+            - main
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node-version: ["16", "15"]
+
+        steps:
+            - uses: actions/checkout@v2
+            - name: Check Non Python Files Linting
+              run: |
+                  npm install prettier -g
+                  prettier --check "src/**/*.ts"
