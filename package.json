@@ -5,7 +5,8 @@
 	"main": "src/index.js",
 	"bin": "src/index.js",
 	"scripts": {
-		"compile": "tsc"
+		"compile": "tsc",
+		"semantic-release": "semantic-release"
 	},
 	"repository": {
 		"type": "git",
@@ -17,5 +18,10 @@
 	"bugs": {
 		"url": "https://github.com/Harry-Hopkinson/tsconfig.json/issues"
 	},
-	"homepage": "https://github.com/Harry-Hopkinson/tsconfig.json#readme"
+	"homepage": "https://github.com/Harry-Hopkinson/tsconfig.json#readme",
+	"dependencies": {
+		"fs": "^0.0.1-security",
+		"inquirer": "^8.2.0",
+		"path": "^0.12.7"
+	}
 }
