@@ -1,4 +1,4 @@
-name: Linter
+name: Compiler
 
 on:
     push:
@@ -15,7 +15,7 @@ jobs:
 
         steps:
             - uses: actions/checkout@v2
-            - name: Typescript Linting
+            - name: Typescript Compiler
               run: |
-                  npm install prettier -g
-                  prettier --check "src/**/*.ts"
+                  npm install
+                  npm run compile
