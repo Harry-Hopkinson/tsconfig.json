@@ -18,4 +18,4 @@ jobs:
             - name: Typescript Linting
               run: |
                   npm install prettier -g
-                  prettier --check "src/**/*.ts"
+                  prettier --tab-width 4 --use-tabs true  --check .
