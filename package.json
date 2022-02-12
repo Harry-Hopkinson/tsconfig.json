@@ -6,6 +6,7 @@
 	"bin": "src/index.js",
 	"scripts": {
 		"compile": "tsc",
+		"build": "tsc",
 		"semantic-release": "semantic-release"
 	},
 	"repository": {
