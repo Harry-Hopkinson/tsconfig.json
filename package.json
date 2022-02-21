@@ -1,9 +1,9 @@
 {
 	"name": "create-tsconfig.json",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Create a tsconfig.json from the command line",
-	"main": "src/index.js",
-	"bin": "src/index.js",
+	"main": "index.js",
+	"bin": "index.js",
 	"scripts": {
 		"compile": "tsc",
 		"build": "tsc",
@@ -13,7 +13,14 @@
 		"type": "git",
 		"url": "git+https://github.com/Harry-Hopkinson/tsconfig.json.git"
 	},
-	"keywords": [],
+	"keywords": [
+		"cli",
+		"command-line",
+		"generator",
+		"tsconfig.json",
+		".ts",
+		"Typescript"
+	],
 	"author": "",
 	"license": "MIT",
 	"bugs": {
