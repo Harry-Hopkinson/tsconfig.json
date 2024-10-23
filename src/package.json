@@ -39,6 +39,6 @@
 		"path": "^0.12.7"
 	},
 	"devDependencies": {
-		"@types/node": "17.0.39"
+		"@types/node": "20.17.0"
 	}
 }
